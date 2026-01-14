@@ -249,8 +249,6 @@ body::-webkit-scrollbar {
     background-color: white;
     position: relative;
     top: 35%;
-    transform: translateY(-50%);
-    /* max-width: 300px; */
     border-radius: 10px;
 }
 
@@ -280,7 +278,6 @@ body::-webkit-scrollbar {
     width: 80%;
     position: relative;
     top: 40%;
-    transform: translateY(-50%);
     height: auto;
     max-width: 350px;
     border-radius: 10px;
@@ -292,6 +289,11 @@ body::-webkit-scrollbar {
     background-color: #111111;
     border-radius: 10px;
     size: 150%;
+}
+
+#blanks, #pacific {
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #aboutUs {
