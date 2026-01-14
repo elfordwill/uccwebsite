@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#01172d">
+    <meta name="keywords" content="uvic cycling, vikes cycling, UCC, uvic cycling club">
+    <meta name="description" content="Website for the University of Victoria Cycling Club.">
+
+    <title>UVic Cycling Club</title>
+
+    <link rel="icon" href="Media/Vike.png" type="image/png">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=open_in_new" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="header">
+        <img id="headLogo" src="Media/Vike.png" alt="UVic Cycling Logo">
+        <h1 id="title">UVIC Cycling Club</h1>
+        <div id="optionsDiv">
+            <a id="homeButton" class="menuBar">Home</a>
+            <a id="rosterButton" class="menuBar" href="roster.html">Roster</a>   
+            <a id="announcementsButton" class="menuBar" href="announcements.html">Announcements</a> 
+            <a id="sponsorsButton" class="menuBar" href="sponsors.html">Sponsors</a>
+            <a class="joinUs menuBar" href="https://activeliving.uvic.ca/Program/GetProgramDetails?courseId=7a787953-70ff-40e1-b8b8-8593bf217a8d">Join Us <span id="openNewIcon" class="material-symbols-outlined">open_in_new</span></a>
+        </div>
+        <a id="instagram" href="https://www.instagram.com/uviccycling/?hl=en"><img src="Media/instagram.svg" alt="instagram link"></a>
+        <h1 id="hamburger" onclick="openMenu()">&#8801;</h1>
+    </header>
+
+    <div id="hamMenu">
+        <a href="index.html" class="menuBarBottom">Home</a>
+        <a href="roster.html" class="menuBarBottom">Roster</a>   
+        <a href="announcements.html" class="menuBarBottom">Announcements</a> 
+        <a href="sponsors.html" class="menuBarBottom">Sponsors</a>
+        <a class="menuBarBottom" id="openNewIconHam" href="https://activeliving.uvic.ca/Program/GetProgramDetails?courseId=7a787953-70ff-40e1-b8b8-8593bf217a8d">Join Us <span class="material-symbols-outlined">open_in_new</span></a>
+    </div>
+
+    <div id="homeImageDiv">
+        <img src="Media/mainBack.jpeg" title="Photo by François Richard" id="homeImage">
+        <h1 id="heroText">UVic Cycling</h1>
+    </div>
+
+
+
+    <main id="main">
+
+        <h1 id="blue"></h1>
+        <h1 id="yellow"></h1>
+        <h1 id="blue2"></h1>
+
+        <div id="content">
+
+            <div id="data1D">
+                <h1 id="data1H">Our Mission</h1> 
+                <p class="textData" id="data1P">The UVic Cycling Club is a team of students and like-minded athletes focused on training and racing road, gravel, and cyclocross events in Victoria and beyond. We welcome riders who are interested in joining group rides, pushing their limits, and representing UVic Cycling on the roads and on the start line. Whether you’re an experienced racer or someone looking to get started, our club provides coaching, community, and support to help you on your journey from training to the racecourse. We are backed by our incredible sponsors, Fort Street Cycle, Dockside Physio, Blank’s Sports Nutrition, Pacific Cycling Centre, and Jakroo, who help support our athletes throughout the season. If you enjoy cycling, training hard, and being part of an awesome team then we would love to ride with you.  </p>
+                <img src="Media/photo2.jpg" title="Photo by François Richard" alt="UVic Cycling Riders on a descent" id="imageTemp">
+            </div>
+
+            
+
+            <div id="tableData">
+                <h1 id="table1H">Ride with us </h1>
+                <h1 id="table2H">Race with us </h1>
+                <p class="tableTextData" id="table1D">Our group rides usually leave from in front of the Campus Security Building (SEC) and include hard training, social miles, and the occasional coffee and bakery stops. We host a longer (around 2 hour) endurance ride every Saturday, meeting at 8:50am to roll out around 9:00am. These rides typically include at least one coffee stop and are a great way to increase training volume and ride with a great group of people. These rides often split around the one hour mark with one group returning to campus and another group going a little farther before turning back. For road rides expect an average speed of around 23-28km/h. We will also be leading cyclocross training, gravel rides, harder training sessions, and hill-climb efforts depending on where we are in the cycling season. Whether you’re new to cycling or an experienced rider, you are welcome to join the UVic Cycling Club and enjoy exploring Victoria with us on our weekly group rides.</p>
+                <p class="tableTextData" id="table2D">Racing is a big part of UVic Cycling but is entirely optional. We compete in many events around Victoria and BC including the Victoria Cycling League, Cross on the Rock, Tour de Victoria, BC Gravel Series, and at Greater Victoria Velodrome events throughout the season. Being a member of the UVic Cycling Club gets you access to professional coaching sessions from the Pacific Cycling Centre, mechanical help from Fort Street Cycle, bike fitting and physiotherapy support from Dockside Physio, nutrition support from Blank’s Sports Nutrition, and team jersey support from Jakroo. We look forward to helping you on your racing journey from those pinning on their first race number to experienced competitors chasing spots on the podium. If you want to test yourself on the racecourse and represent UVic Cycling then this is the team for you!</p>
+                <img class="tablePic" id="pic1" title="Photo by François Richard" src="Media/group_ride.jpg">
+                <img class="tablePic" id="pic2" src="Media/podium.JPG">
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+       <p id="poweredBy">Powered By:</p>
+            <img src="media/blanks.png" id="blanks">
+            <img src="media/pcc.png" id="pacific">
+            <img src="media/FSC.png" id="fort">
+            <img src="Media/dockside.png" id="dockside">
+            <img src="Media/jakroo.png" id="jakroo">
+            <div id="aboutUs">
+                <a href="index.html" class="menuBarBottom">Home</a>
+                <a href="roster.html" class="menuBarBottom">Roster</a>   
+                <a href="announcements.html" class="menuBarBottom">Announcements</a> 
+                <a href="sponsors.html" class="menuBarBottom">Sponsors</a>
+                <a class="menuBarBottom" href="https://activeliving.uvic.ca/Program/GetProgramDetails?courseId=7a787953-70ff-40e1-b8b8-8593bf217a8d">Join Us <span id="bottomIcon" class="material-symbols-outlined">open_in_new</span></a>
+            </div>
+    </footer>
+
+</body>
+</html>
