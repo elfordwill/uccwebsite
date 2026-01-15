@@ -712,6 +712,7 @@ main p {
     padding-top: 20px;
     grid-area: stitle;
     margin-top: 0;
+    font-weight: 250;
     font-size: 1.8em;
     text-align: center;
     color: black;
@@ -730,6 +731,7 @@ main p {
 .sponsorWriteup {
     grid-area: swriteup;
     text-align: center;
+    font-weight: 150;
     text-decoration: none;
 }
 
