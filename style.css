@@ -801,6 +801,10 @@ main p {
         justify-items: center;
     }
 
+    .textData {
+        max-width: 200ch;
+    }
+
     .tablePic {
         display: block;
         justify-self: center;
