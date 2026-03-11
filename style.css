@@ -551,8 +551,9 @@ main p {
     background-image: linear-gradient(95deg, #2B4C7E 8%, #F2C94C 8.1%, white 8.8%);
     width: 100%;
     max-width: 700px;
-    box-shadow: 2px 3px 10px;
+    box-shadow: 2px 2px 15px;
 }
+
 
 .announcement > h1 {
     font-weight: 300;
@@ -589,9 +590,9 @@ main p {
     background-image: linear-gradient(95deg, #2B4C7E 3%, #F2C94C 3.1%, white 3.8%);
     box-shadow: 2px 2px 20px;
     display: grid;
-    height: 200px;
-    grid-template-columns: 0.05fr 0.2fr 1fr;
-    grid-template-rows: 55px 20px 100px;
+    height: 255px;
+    grid-template-columns: 0.1fr 0.2fr 1fr;
+    grid-template-rows: 55px 25px 150px;
     grid-template-areas: 
     '. pic name'
     '. pic position'
@@ -608,6 +609,9 @@ main p {
     top: 15%;
     object-fit: contain;
     max-width: 150px;
+    box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .rosterName {
@@ -661,9 +665,10 @@ main p {
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    'docksideS pacificS fortS blanksS jakrooS'
+    'docksideS pacificS fortS blanksS jakrooS';
 }
 
 
@@ -678,7 +683,6 @@ main p {
 
 #pacificSponsor {
     grid-area: pacificS;
-    margin-left: 10px;
 }
 
 #fortSponsor {
@@ -687,7 +691,6 @@ main p {
 
 #blanksSponsor {
     grid-area: blanksS;
-    margin-left: 10px;
 }
 
 
@@ -695,6 +698,7 @@ main p {
 .sponsorContainer {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 10px;
     grid-template-rows: 180px auto 60px;
     grid-template-areas: 
     'sponPic'
@@ -702,6 +706,9 @@ main p {
     'swriteup';
     border-radius: 10px;
     max-width: 100%;
+    box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 #sponsorsDiv > a {
@@ -983,6 +990,11 @@ main p {
     .announcement > h6 {
         margin-left: 14%;
     }
+
+    #announcement1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     
     #blanks {
         margin-bottom: 10px;
@@ -1007,8 +1019,9 @@ main p {
     }
 
     .rosterEntry {
+        padding-top: 20px;
         background-image: linear-gradient(95deg, #2B4C7E 11%, #F2C94C 11.1%, white 11.8%);
-        grid-template-rows: 1fr 0.2fr 0.1fr 0.6fr;
+        grid-template-rows: 1fr 0.2fr 0.05fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
         'pic'
@@ -1031,7 +1044,8 @@ main p {
     
     .rosterBio {
         position: relative;
-        width: 85%;
+        width: 90%;
+        font-size: 1.3em;
         left: 10%;
     }
 
@@ -1040,7 +1054,6 @@ main p {
         left: 0;
         transform: none;
         display: block;
-        padding-top: 30px;
         margin: 0 auto;
     }
 
@@ -1097,6 +1110,11 @@ main p {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    #heroText {
+        top: 35%;
+        font-size: 1.8em;
     }
 }
 
