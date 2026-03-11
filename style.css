@@ -1052,7 +1052,7 @@ main p {
     
     .rosterBio {
         position: relative;
-        width: 90%;
+        width: 80%;
         font-size: 1.3em;
         left: 10%;
     }
@@ -1060,7 +1060,7 @@ main p {
     .rosterImage {
         position: relative;
         left: 0;
-        width: 80%;
+        width: 100%;
         height: auto;
         transform: none;
         display: block;
