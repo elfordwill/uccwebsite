@@ -1061,7 +1061,7 @@ main p {
         position: relative;
         left: 0;
         transform: none;
-        display: block;
+        display: none;
         margin: 0 auto;
     }
 
