@@ -1035,7 +1035,7 @@ main p {
         'position'
         'bio';
         height: auto;
-        max-height: 600px;
+        max-height: 800px;
         overflow: hidden;
     }
 
