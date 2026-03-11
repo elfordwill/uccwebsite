@@ -1060,8 +1060,10 @@ main p {
     .rosterImage {
         position: relative;
         left: 0;
+        width: 80%;
+        height: auto;
         transform: none;
-        display: none;
+        display: block;
         margin: 0 auto;
     }
 
