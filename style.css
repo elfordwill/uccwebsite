@@ -595,7 +595,7 @@ main p {
 
 .rosterEntry {
     background-image: linear-gradient(95deg, #2B4C7E 3%, #F2C94C 3.1%, white 3.8%);
-    box-shadow: 2px 2px 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
     display: grid;
     height: 255px;
     grid-template-columns: 0.1fr 0.2fr 1fr;
